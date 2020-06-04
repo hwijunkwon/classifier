@@ -67,6 +67,7 @@ def makeOverlappingSeqeunceResult(dictionariesForEachFamily):#패밀리별 fragm
     for setItem in fullSet:
         line = setItem
         sum = 0
+
         for family_dict in dictionariesForEachFamily:
             if setItem in family_dict:
                 freq = family_dict[setItem]
